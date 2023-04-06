@@ -103,9 +103,9 @@
 		margin-left: 0px;
 	}
 
-	#whoSuits .mapAddress iframe {
-		width: 90%;
-		height: 300px;
+	#whoSuits .mapAddress img {
+		width: 70%;
+		height: 100%;
 		margin-top: 30px;
 	}
 }
@@ -284,7 +284,7 @@
 		font-size: 0.8em;
 	}
 
-	#whoSuits .mapAddress iframe {
+	#whoSuits .mapAddress img {
 		height: 530px;
 		width: 750px;
 		border-top-left-radius: 20px;

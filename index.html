@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Diana Nikitenko</title>
+		<script src="./script/script.js" defer></script>
+		<link href="./style/style.css" rel="stylesheet" />
+		<link href="./style/mediaqueries.css" rel="stylesheet" />
+		<link href="./images/thunderbolt-outline.png" rel="icon" />
+		<link
+			href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+				<div class="headerLogo">
+					<a href="#">
+						<div><span>di</span>nikitenko</div>
+					</a>
+				</div>
+				<div id="showMenu"></div>
+				<nav class="nav">
+					<a href="#plansSection"><span>ПРАЙС</span></a>
+					<a href="#aboutUsSection"><span>ЧТО ТЕБЯ ЖДЕТ</span></a>
+					<a href="#whoSuits"><span>КОМУ ПОДХОДИТ</span></a>
+					<a href="#contact"><span>КОНТАКТЫ</span></a>
+				</nav>
+				<button class="hamburgerMenu">
+					<i class="fa-regular fa-bars"></i>
+				</button>
+			</header>
+
+			<section class="mainSection">
+				<main>
+					<div class="content">
+						<span id="subtitle">Ты готов,</span>
+						<span id="subtitle">к работе с нами?</span>
+						<span id="text">Начни заниматься с нами прямо сейчас !</span>
+						<a href="#plansSection"
+							><div id="startBtn">
+								<button>
+									Начать сейчас
+								</button>
+							</div></a
+						>
+					</div>
+				</main>
+			</section>
+
+			<section id="plansSection">
+				<h1 id="plansTitle">стоимость <span>тренировок</span></h1>
+				<div class="plans">
+					<div id="basicPlan">
+						<h1>ПРОБНАЯ</h1>
+						<div class="price">200<span>грн</span></div>
+						<span class="perMonthText">за одно занятие</span>
+						<ul>
+							Ты получаешь:
+							<li>
+								<i class="fa-regular fa-check"></i> Одноразовую тренировку в
+								группе
+							</li>
+							<li>
+								<i class="fa-regular fa-check"></i> Ознакомление с подходом
+								тренировок
+							</li>
+							<li>
+								<i class="fa-regular fa-check"></i> День на выбор, по
+								расписаниям групповой тренировки
+							</li>
+						</ul>
+						<button class="purchasePlan">ОПЛАТИТЬ СЕЙЧАС</button>
+					</div>
+					<div id="standardPlan">
+						<h1>ГРУППОВАЯ</h1>
+						<div class="price">1100<span>грн</span></div>
+						<span class="perMonthText">в месяц</span>
+						<ul>
+							Ты получаешь:
+							<li><i class="fa-regular fa-check"></i> Тренировку в группе</li>
+							<li>
+								<i class="fa-regular fa-check"></i> Четыре силовые тренировки
+							</li>
+							<li>
+								<i class="fa-regular fa-check"></i> Две тренировки по стречингу
+							</li>
+							<li>
+								<i class="fa-regular fa-check"></i> Две тренировки по пилатесу
+							</li>
+						</ul>
+						<button class="purchasePlan">ОПЛАТИТЬ СЕЙЧАС</button>
+					</div>
+					<div id="premiumPlan">
+						<h1>ИНДИВ</h1>
+						<div class="price">400<span>грн</span></div>
+						<span class="perMonthText">в час</span>
+						<ul>
+							Ты получаешь:
+							<li><i class="fa-regular fa-check"></i> Индивидуальный подход</li>
+							<li>
+								<i class="fa-regular fa-check"></i> Тренировочный процесс будет
+								исходить из твоих пожеланий
+							</li>
+							<li>
+								<i class="fa-regular fa-check"></i> Тренировка в удобное для
+								тебя время
+							</li>
+							<li><i class="fa-regular fa-check"></i> Советы по питанию</li>
+						</ul>
+						<button class="purchasePlan">ОПЛАТИТЬ СЕЙЧАС</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="aboutUsSection">
+				<div class="textAndImg">
+					<div class="image"><img src="./images/diana3.jpg" /></div>
+					<div class="aboutUsText">
+						<p style="font-size: 1.3em;">
+							<span><span>Я,</span> Диана Никитенко</span>, тренер с опытом 5+
+							лет. Бакалавр Физического воспитания и Спорта. Кандидат в мастера
+							спорта по художественной гимнастики.
+						</p>
+						<p style="color: rgb(72, 70, 70); padding: 1px; font-size: 1.3em;">
+							Онлайн группа это:
+							<li style="color: dimgrey; font-size: 1.1em;">
+								Силовые тренировки
+							</li>
+							<li style="color: dimgrey; font-size: 1.1em;">
+								Стретчинг и Пилатес
+							</li>
+							<li style="color: dimgrey; font-size: 1.1em;">
+								Длительность тренировки 30-60минут
+							</li>
+							<li style="color: dimgrey; font-size: 1.1em;">
+								На постоянной основе 2 раза в неделю
+							</li>
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="whoSuits">
+				<div class="mapAddress">
+					<div class="textAndImg">
+						<p1 style="margin-bottom: 10px; color: rgb(127, 125, 125);"
+							>Кому подходит:</p1
+						>
+						<li>Новичкам</li>
+						<li>
+							Тем кто хочет заниматься спортом
+						</li>
+						<li>Если нет времени ходить в зал</li>
+					</div>
+					<iframe
+						src="./images/diana_who.jpg"
+						width="590"
+						height="402"
+						style="border: 0;"
+						loading="lazy"
+					></iframe>
+				</div>
+			</section>
+
+			<footer id="contact">
+				<div class="contacts">
+					<p>МОИ КОНТАКТЫ</p>
+					<div class="imgs">
+						<a href="https://t.me/DiNikm"
+							><img src="./images/tg.png" height="35px"
+						/></a>
+						<a href="https://www.instagram.com/nikitenko.di"
+							><img src="./images/instagram1.png" height="35px"
+						/></a>
+						<a href="mailto: ms.nikita.nikito@gmail.com"
+							><img src="./images/email.png" height="35px"
+						/></a>
+					</div>
+				</div>
+				<span><img src="./images/thunderbolt-white.png" height="155px" /></span>
+				<div class="newsletter">
+					<p>Subscribe to our newsletter</p>
+					<input type="email" placeholder="mail@example.com" />
+					<button>Submit</button>
+				</div>
+				<p id="me">
+					developed by
+					<a href="https://github.com/ihor07" target="_blank">Ihor07</a>
+				</p>
+			</footer>
+		</div>
+		<i class="fa-solid fa-up"></i>
+	</body>
+</html>

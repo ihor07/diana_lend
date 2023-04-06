@@ -87,23 +87,23 @@
 		margin-left: 20px;
 	}
 
-	#findUsSection .mapAddress {
+	#whoSuits .mapAddress {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	#findUsSection .mapAddress div {
+	#whoSuits .mapAddress div {
 		text-align: center;
 		margin-top: 0px;
 		margin-left: 0px;
 	}
 
-	#findUsSection .mapAddress div i {
+	#whoSuits .mapAddress div i {
 		margin-left: 0px;
 	}
 
-	#findUsSection .mapAddress iframe {
+	#whoSuits .mapAddress iframe {
 		width: 90%;
 		height: 300px;
 		margin-top: 30px;
@@ -265,6 +265,7 @@
 		min-height: 800px;
 		background-size: 1200px;
 		margin-top: 50px;
+		width: 100%;
 	}
 
 	#whoSuits .mapAddress {

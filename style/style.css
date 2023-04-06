@@ -487,6 +487,7 @@ header #showMenu {
 	border-top-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 	box-shadow: 5px 5px 0px #ffd60a;
+	display: block;
 }
 
 #contact {

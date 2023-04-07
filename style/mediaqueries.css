@@ -79,12 +79,12 @@
 
 	#aboutUsSection .textAndImg .aboutUsText {
 		width: 80%;
-		margin-top: 20px;
+		margin-top: 5px;
 	}
 
 	#aboutUsSection .textAndImg .image {
 		width: 80%;
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 
 	#whoSuits .mapAddress {

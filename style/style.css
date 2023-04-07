@@ -407,10 +407,11 @@ header #showMenu {
 #aboutUsSection .textAndImg .aboutUsText p {
 	font-size: 1.25em;
 	margin-bottom: 10px;
+	line-height: 1.7;
 }
 
 #aboutUsSection .textAndImg .aboutUsText p span {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-family: logoFont;
 }
 
 #aboutUsSection .textAndImg .aboutUsText p span span {

@@ -393,7 +393,6 @@ header #showMenu {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 #aboutUsSection .textAndImg .aboutUsText {
@@ -418,19 +417,15 @@ header #showMenu {
 }
 
 #aboutUsSection .textAndImg .image {
-	width: 70%;
-	margin-right: -10px;
-	margin-top: -20px;
+	width: 50%;
+	margin-right: 30px;
 }
 
 #aboutUsSection .textAndImg .image img {
-	width: 70%;
-	height: 70%;
+	width: 100%;
 	box-shadow: -5px 5px 0px #e3a076;
-	border-radius: 50%;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
 }
 
 #whoSuits {

@@ -42,9 +42,10 @@ html {
 }
 
 * {
-	margin: 0;
+	margin: -1px;
+	margin-right: -10px;
 	padding: 0;
-	box-sizing:content-box
+	box-sizing:border-box;
 	font-family: font;
 }
 

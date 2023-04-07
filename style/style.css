@@ -136,13 +136,13 @@ header .hamburgerMenu {
 }
 
 header #showMenu {
-	display: none;
+	display:flex;
 	position: absolute;
-	height: 400px;
+	height: 360px;
 	width: 200px;
 	background-color: #c4c4c4;
-	top: 10px;
-	right: 10px;
+	top: 50px;
+	right: 20px;
 }
 
 .mainSection {

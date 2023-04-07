@@ -408,6 +408,7 @@ header #showMenu {
 	font-size: 1.25em;
 	margin-bottom: 10px;
 	line-height: 1.7;
+	text-align: center;
 }
 
 #aboutUsSection .textAndImg .aboutUsText p span {

@@ -107,8 +107,9 @@ header .headerLogo a span {
 }
 
 header nav {
-	position: absolute;
+	position:absolute;
 	right: 30px;
+	margin-top: -400px;
 }
 
 header nav a {
@@ -125,12 +126,13 @@ header nav a:hover {
 
 header .hamburgerMenu {
 	display: none;
-	position: absolute;
+	position:fixed;
 	color: #000000;
 	background-color: transparent;
 	border: none;
 	font-size: 1em;
 	right: 0;
+	top:30px;
 	margin-right: 40px;
 	cursor: pointer;
 }
@@ -138,11 +140,11 @@ header .hamburgerMenu {
 header #showMenu {
 	display:flex;
 	position:relative;
-	height: 360px;
+	height: 380px;
 	width: 200px;
-	
+	background-color: #c4c4c400;
 	top: 50px;
-	right: 5px;
+	right: 10px;
 }
 
 .mainSection {

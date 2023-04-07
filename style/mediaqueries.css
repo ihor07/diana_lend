@@ -15,7 +15,7 @@
 	}
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 850px) {
 	body {
 		background-color: #e3e3e3;
 		background-image: url('../images/di.jpg');

@@ -166,7 +166,7 @@ header #showMenu {
 .mainSection main .content {
 	margin-top: 290px;
 	max-width: 500px;
-	display: flex;
+	display: inline-grid;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
@@ -413,7 +413,7 @@ header #showMenu {
 }
 
 #aboutUsSection .textAndImg .aboutUsText p {
-	font-size: 1.4em;
+	font-size: 1.32em;
 	margin-bottom: 10px;
 	line-height: 1.7;
 	text-align: center;

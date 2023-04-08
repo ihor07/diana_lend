@@ -36,6 +36,14 @@
 	font-family: titleFont;
 	src: url('./font/Stoicheion-2Od3X.ttf');
 }
+@font-face {
+	font-family: fontDoc;
+	src: url('./font/PoiretOne.ttf')
+}
+@font-face {
+	font-family: fontUpMenu;
+	src: url('./font/Comfortaa.ttf')
+}
 
 html {
 	scroll-behavior: smooth;
@@ -45,7 +53,7 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing:border-box;
-	font-family: font;
+	font-family: fontUpMenu;
 }
 
 *::-webkit-scrollbar {
@@ -179,7 +187,7 @@ header #showMenu {
 }
 
 .mainSection main .content #subtitle {
-	font-family: logoFont;
+	font-family: fontUpMenu;
 	font-size: 3em;
 	line-height: 40px;
 }
@@ -475,6 +483,10 @@ header #showMenu {
 	font-size: 1.7em;
 	margin-top: -80px;
 	margin-left: 30px;
+}
+
+#whoSuits .mapAddress .textAndImg p1 span {
+	font-family: fontDoc;
 }
 
 #whoSuits .mapAddress div i {

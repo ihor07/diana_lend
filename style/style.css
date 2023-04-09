@@ -138,10 +138,10 @@ header .hamburgerMenu {
 	color: #000000;
 	background-color: transparent;
 	border: none;
-	font-size: 1em;
+	font-size: 1.2em;
 	right: 0;
 	top:30px;
-	margin-right: 40px;
+	margin-right: 25px;
 	cursor: pointer;
 }
 
@@ -164,7 +164,7 @@ header #showMenu {
 }
 
 .mainSection main .content {
-	margin-top: 290px;
+	margin-top: 260px;
 	max-width: 500px;
 	display: inline-grid;
 	flex-direction: column;
@@ -220,7 +220,7 @@ header #showMenu {
 	position: absolute;
 	height: 100%;
 	bottom: 4px;
-	left: 4px;
+	left: -4px;
 	transition: 0.2s;
 }
 

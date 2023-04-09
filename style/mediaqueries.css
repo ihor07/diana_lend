@@ -28,10 +28,10 @@
 
 	header nav {
 		display: none;
-		margin-top: 5px;
+		margin-top: 45px;
 		position: absolute;
 		right: 0;
-		margin-right: 2px;
+		margin-right: -25px;
 	}
 
 	header nav a {

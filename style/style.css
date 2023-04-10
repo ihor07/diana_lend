@@ -170,7 +170,7 @@ header #showMenu {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	color: #3b3f0b;
+	color: #000000;
 	
 }
 
@@ -211,7 +211,7 @@ header #showMenu {
 	align-items: center;
 	content: 'НАЧНИ СЕЙЧАС';
 	background-color: #ffd60a;
-	color: #000814;
+	color: #000000;
 	font-weight: bold;
 	font-size: 1em;
 	letter-spacing: 2px;
@@ -449,7 +449,7 @@ header #showMenu {
 	flex-direction: column;
 	align-items: center;
 	color: #ffffff;
-	background-color: #99bddf;
+	background-color: #d9cfde;
 	background-image: url('../images/wallpaper3.png');
 	background-repeat: no-repeat;
 	background-position: bottom left;
@@ -516,7 +516,7 @@ header #showMenu {
 #contact {
 	width: 100%;
 	min-height: 150px;
-	background-color: #2f4f75;
+	background-color: #28255d;
 	color: #ffffff;
 	display: flex;
 	justify-content: space-evenly;
@@ -609,7 +609,8 @@ header #showMenu {
 	left: 0;
 	margin: 20px 25px;
 	font-size: 2.8em;
-	transition: 0.2s;
+	transition: 0.3s;
+	
 }
 
 .fa-up:hover {
@@ -634,7 +635,7 @@ header #showMenu {
 	border-radius: 4px;
 	font-size: 22px;
 	padding: 10px 20px;
-	background: #558ed6;
+	background: #c5bfe2;
 	margin: 0 auto;
 	color: #fff;
 	font-family: Tahoma, sans-serif;
